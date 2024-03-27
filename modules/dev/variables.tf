@@ -28,11 +28,11 @@ variable "public_ip" {
     type        = bool
 }
 
-variable "egress_cidr_blocks" {
-    default     = ["0.0.0.0/0"]
-    description = "CIDR blocks for egress traffic"
-    type        = list(string)
-}
+#variable "egress_cidr_blocks" {
+    #default     = ["0.0.0.0/0"]
+    #description = "CIDR blocks for egress traffic"
+    #type        = list(string)
+#}
 
 variable "tags" {
     default     = {
