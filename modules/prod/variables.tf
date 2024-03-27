@@ -17,7 +17,7 @@ variable "key_name" {
 }
 
 variable "user_data" {
-    default     = "Jenkins-Master.sh"
+    #default     = "Jenkins-Master.sh"
     description = "The user data to provide the instance"
     type        = string
 }
