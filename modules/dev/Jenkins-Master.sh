@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sleep 420
+sleep 360
 
 sudo apt update
 sudo apt upgrade
